@@ -21,4 +21,12 @@
     android:summary="@string/quicksettings_summary"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- QS brightness slider -->
+    <com.weeb.settings.preferences.SystemSettingMasterSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_show_brightness_title"
+            android:summary="@string/qs_show_brightness_summary"
+            android:fragment="com.weeb.settings.fragments.BrightnessSliderSettings"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
