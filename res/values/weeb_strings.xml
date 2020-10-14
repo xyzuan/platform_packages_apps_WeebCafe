@@ -103,4 +103,7 @@
     <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
     <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
 
+    <!-- Translucent lockscreen notifications background -->
+    <string name="translucent_lockscreen_notifications_bg_title">Translucent notifications background</string>
+
 </resources>

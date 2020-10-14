@@ -28,4 +28,9 @@
         android:summary="@string/lockscreen_media_art_summary"
         android:defaultValue="true" />
         
+    <com.weeb.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_translucent_notifications_bg_enabled"
+        android:title="@string/translucent_lockscreen_notifications_bg_title"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
