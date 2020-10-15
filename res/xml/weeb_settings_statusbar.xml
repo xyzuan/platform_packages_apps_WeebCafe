@@ -31,7 +31,7 @@
         android:summary="@string/network_traffic_state_summary"
         android:defaultValue="true" />
 
-    <com.weeb.settings.preferences.SystemSettingSwitchPreference
+    <com.weeb.settings.preferences.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold_title"
         android:max="10"
